@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.assignment2tasks.MainController" spacing="10" alignment="TOP_CENTER" prefWidth="400">
+    <TextField fx:id="searchBox" promptText="Enter book title" />
+    <Button fx:id="searchButton" text="Search" onAction="#handleSearchAction"/>
+    <ListView fx:id="bookListView" prefHeight="200" onMouseClicked="#handleListViewClick"/>
+    <Label fx:id="titleLabel" text="Title: " />
+    <Label fx:id="authorLabel" text="Author: " />
+    <Label fx:id="yearLabel" text="First Published Year: " />
+</VBox>

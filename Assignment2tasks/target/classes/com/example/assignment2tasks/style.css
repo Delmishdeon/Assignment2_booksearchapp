@@ -1,0 +1,67 @@
+/* Basic application style */
+.root {
+    -fx-background-color: #e0f7fa;  /* Changed to light blue */
+    -fx-font-family: 'Arial', sans-serif;
+    -fx-padding: 20;
+    -fx-alignment: center;
+}
+
+/* Style for the search box */
+.text-field {
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5;
+    -fx-pref-width: 300px;
+}
+
+/* Style for the search button */
+.button {
+    -fx-font-size: 14px;
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5;
+    -fx-margin-top: 10px;
+}
+
+.button:hover {
+    -fx-background-color: #45a049;
+}
+
+.button:pressed {
+    -fx-background-color: #388e3c;
+}
+
+/* Style for the ListView */
+.list-view {
+    -fx-font-size: 14px;
+    -fx-pref-height: 200px;
+    -fx-pref-width: 350px;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5;
+    -fx-background-color: #ffffff;
+    -fx-selection-bar: #4CAF50;
+}
+
+.list-view .cell {
+    -fx-padding: 10px;
+}
+
+/* Style for the labels displaying book details */
+.label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #333333;
+    -fx-padding: 5px 0;
+}
+
+.label.title {
+    -fx-font-weight: bold;
+    -fx-font-size: 18px;
+}
+
+/* Make the VBox layout more stylish */
+.vbox {
+    -fx-spacing: 15px;
+}
